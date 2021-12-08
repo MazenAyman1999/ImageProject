@@ -1,10 +1,10 @@
-1- noise reduction
-2- contrast enhancement
-3- converting to binary image
-4- edge detection
-5- find contours and extract the portion that contains the plate (texture analysis)
-6- morphological operations
-7- segmentation (separate characters)
+1- noise reduction -> Mazen
+2- contrast enhancement -> Mazen
+3- converting to binary image -> Davinci
+4- edge detection -> Davinci
+5- find contours and extract the portion that contains the plate (texture analysis) -> Osama
+6- morphological operations -> Mazen 
+7- segmentation (separate characters) -> Helwa
 8- feature extraction (ex. SIFT)
 9- classification (ex. KNN)
 
