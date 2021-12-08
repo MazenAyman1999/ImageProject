@@ -1,0 +1,18 @@
+1- noise reduction
+2- contrast enhancement
+3- converting to binary image
+4- edge detection
+5- find contours and extract the portion that contains the plate (texture analysis)
+6- morphological operations
+7- segmentation (separate characters)
+8- feature extraction (ex. SIFT)
+9- classification (ex. KNN)
+
+* 2 countries ?
+
+* Types of datasets:
+	1- Cars
+	https://www.kaggle.com/thamizhsterio/indian-license-plates
+	2- Letters and Numbers
+	http://www.ee.surrey.ac.uk/CVSSP/demos/chars74k/
+	https://paperswithcode.com/dataset/icdar-2003
