@@ -1,4 +1,9 @@
-#returns the plate of the car
+'''
+* Returns the plate number.
+*
+* @param  original img and grey scale image with intensties from 0 to 1 and image with edges
+* @return      the plate number of a car
+'''
 def Plate_detection(car_img,car_gray,car_edge):
     car_c = binary_dilation(car_edge)
     car_c = binary_erosion(car_c)
