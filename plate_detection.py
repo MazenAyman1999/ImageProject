@@ -30,4 +30,4 @@ def Plate_detection(car_edge,car_gray):
             Ymax = point[0][1]
         if(point[0][1] < Ymin):
             Ymin = point[0][1]
-    show_images([car_gray[Ymin:Ymax,Xmin:Xmax]])
+    return car_gray[Ymin:Ymax,Xmin:Xmax]
