@@ -7,7 +7,6 @@
 def Plate_detection(car_edge,car_gray):
         
     arr = np.uint8(car_edge)
-    show_images([arr])
     contours = cv.findContours(arr.copy(), cv.RETR_TREE, cv.CHAIN_APPROX_SIMPLE)
     contours = imutils.grab_contours(contours)
     contours = sorted(contours, key=cv.contourArea, reverse=True)[:10]
